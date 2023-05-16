@@ -1,0 +1,72 @@
+
+body{
+    font-family: Calibri;
+    background-color: aqua;
+}
+input[type="text"] {
+    width: 250px;
+}
+input[type="submit"], input[type="reset"] {
+    width: 77px;
+    height: 27px;
+    position: relative;left: 180px;
+}
+form{
+    text-align: center;
+    font-family: Calibri;
+    font-size: 20px;
+    border: 3px solid black;
+    width: 600px;
+    margin: 20px auto;
+    background-color: rgb(194, 89, 32);
+}
+td {
+    padding: 10px;
+   
+}
+td:first-child {
+    text-align: right;
+    font-weight: bold;
+}
+td:last-child {
+    text-align: left;
+
+
+}
+h1{
+    color: red;
+}
+
+#but1
+{
+   
+    border-radius: 10px;
+    background-color: aquamarine;
+    font-size: large;
+    font-family: 'Times New Roman';
+   
+}
+#but2
+{
+    border-radius: 10px; 
+    background-color: aquamarine;
+    font-size: large;
+    font-family: 'Times New Roman';
+   
+}
+#but2:hover
+{
+  
+    background-color: rgb(100, 185, 25);
+    transition: 0.14s;
+    
+   
+}
+#but1:hover
+{
+  
+    background-color: rgb(100, 185, 25);
+    transition: 0.14s;
+    
+    
+}
